@@ -6,7 +6,7 @@ selected = st.selectbox("", ["See Fellow's Note for this section", "Sienka", "Te
 if(selected == "Tewodros"):
     with st.expander("📝Notes"):
         st.write('- Manual back propagation on a nuron')
-        st.image('./img/Neuron.png')
+        st.image('./img/Neuron.PNG')
         st.image('./img/backprop.png')
 
         st.write('- Pytorch implementation')
