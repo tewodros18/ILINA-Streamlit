@@ -1,3 +1,0 @@
-streamlit
-matplotlib
-streamlit_image_select
