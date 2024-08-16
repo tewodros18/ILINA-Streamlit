@@ -3,7 +3,7 @@ import time
 
 #st.title('ILINA 2024 Road Map')
 #st.markdown("<h1 style='text-align: center; color: black;'>ILINA 2024 Road Map</h1>", unsafe_allow_html=True)
-st.image("./img/ILINA.png")
+st.image("./img/ILINA.PNG")
 
 with st.sidebar:
     st.success("Done!")
