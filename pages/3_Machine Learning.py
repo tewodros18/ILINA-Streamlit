@@ -196,4 +196,37 @@ if(selected == "Tewodros"):
                 for node in reversed(topo):
                     node._backward()
 
-        ''', language="python")    
+        ''', language="python")
+
+
+
+col1, col2 = st.columns([1,1])
+
+with col1:
+    st.write("Supervised Learning")
+
+with col2:
+    st.checkbox("Linear regression", value=True)
+    st.checkbox("Logistic regression", value=True)
+    st.checkbox("Decision trees [Optional]")
+
+col3, col4 = st.columns([1,1])
+
+with col3:
+    st.write("Unsupervised Learning")
+with col4:
+    st.checkbox("Clustering",value=True)
+    st.checkbox("Dimensionality reduction")
+    st.checkbox("Anomaly detection [Optional]")
+
+col5, col6 = st.columns([1,1])
+
+with col5:
+    st.write("Deep Learning")
+with col6:
+    st.checkbox("Forward propagation and loss functions", value=True)
+    st.checkbox("Backpropagation and gradient descent", value=True)
+    st.checkbox("Optimizers (SGD, Adam, etc)", value=True)
+    st.checkbox("Convolutional neural networks")
+    st.checkbox("Recurrent neural networks")
+    st.checkbox("Reinforcement Learning")
